@@ -7,7 +7,7 @@ from handlers.user_group import user_group_router
 import asyncio
 
 
-bot = Bot(token="6713955729:AAHHoU0w-20I7e4q60Gz5eOiWzBIKlZIvao")
+bot = Bot(token="your_token")
 dp = Dispatcher()
 ALLOWED_UPDATES = ['message', 'edited_message']
 dp.include_router(user_private_router)
